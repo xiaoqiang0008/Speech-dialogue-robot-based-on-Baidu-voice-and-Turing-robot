@@ -18,9 +18,9 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->setupUi(this);
 
     API_id = "54-04-A6-CE-2C-F6";
-         API_key = "qP5XSo3qqfXbPXx8A4oDqvWI";
-         API_secret_key = "77e47f5e5e95374edf92e206ccfc37cd&";
-         API_access_token="24.a3721b522758ddf7c8efd0a8a53fe0ae.2592000.1523625249.282335-9600066";
+         API_key = "xxxxxxxxx";
+         API_secret_key = "xxxxxxxxxxxxxxxxxxxxxx";
+         API_access_token="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
          API_language="zh";
          API_record_path="text1.pcm";//录音文件的路径
          flag=1;//标志,,第一次http回应要获得 API_access_token 值,第二次(以后)的http回应才是语音识别的返回结果,我把http回应都写到一个方法里,所以要区分一下
