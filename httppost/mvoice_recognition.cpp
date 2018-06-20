@@ -2,8 +2,8 @@
 
 mVoice_Recognition::mVoice_Recognition(QObject *parent) : QObject(parent)
 {
-    API_id = "54-04-A6-CE-2C-F6";
-    API_access_token="24.a3721b522758ddf7c8efd0a8a53fe0ae.2592000.1523625249.282335-9600066";
+    API_id = "xxxxxxxxxxxxxxxxxx";
+    API_access_token="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
     API_language="zh";
     flag=1;
 
